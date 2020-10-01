@@ -421,10 +421,16 @@ display: none
 }
 
 .tab_rosa{
-    color: white;
-    border-bottom: 2px solid white;
+    color: #D25368;
+    border-bottom: 2px solid #D25368;
     text-transform: uppercase;
     text-align: center
+}
+.tab_rosa1{
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    text-align: center;
 }
 .tab_gialla{
     color: rgb(227, 227, 93);
@@ -432,22 +438,47 @@ display: none
     border-bottom: 2px solid rgb(227, 227, 93);
     text-align: center
 }
+.tab_gialla1{
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+.body_gialla{
+    background-color: rgb(227, 227, 93);
+    border-radius: 20px
+}
+.body_rosa{
+    background-color:#D25368 ;
+    border-radius: 20px;
+    
+s
+}
+.body_turchese{
+    background-color: turquoise;
+    border-radius: 20px
+}
 .tab_turchese{
     color: turquoise;
     text-transform: uppercase;
     border-bottom: 2px solid turquoise;
     text-align: center
 }
-.bg_rosa_tab{
-    background-color: #D25368 ;
-    border-radius: 20px;
-    border: 1px solid #D25368
-   
+.tab_turchese1{
+    color: white;
+    text-transform: uppercase;
+    border-bottom: 2px solid white;
+    text-align: center;
+}
+
+.bg_immagini{
+    background-color: white;
+    border-radius: 100px
 }
 
 .cla_rosa{
-    background-color: white;
-    color: #D25368;
+    background-color: #D25368;
+    color: white;
     text-transform: uppercase;
     text-align: center;
     border-radius: 20px;
@@ -459,10 +490,27 @@ display: none
     padding-right: 2px !important
 
 }
-.cla_rosa:hover{
-    text-decoration: none;
-    color: orange
+
+.cla_rosa1{
+    background-color:white;
+    color: #D25368;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-left: 2px !important;
+    padding-right: 2px !important
+
+
 }
+.cla_rosa1:hover{
+  text-decoration: none;
+  color: #D25368
+}
+
 .cla_gialla{
     background-color: rgb(227, 227, 93);
     color: white;
@@ -477,9 +525,23 @@ display: none
     padding-right: 2px !important
 
 }
-.cla_gialla:hover{
-    text-decoration: none;
-    color: orange
+.cla_gialla1{
+    background-color:white;
+    color:  rgb(227, 227, 93);
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-left: 2px !important;
+    padding-right: 2px !important
+
+}
+.cla_gialla1:hover{
+  text-decoration: none;
+  color:  rgb(227, 227, 93)
 }
 
 .cla_turchese{
@@ -496,21 +558,32 @@ display: none
     padding-right: 2px !important
 
 }
-.cla_turchese:hover{
-    text-decoration: none;
-    color: orange
+.cla_turchese1{
+    background-color:white;
+    color:  turquoise;
+    text-transform: uppercase;
+    text-align: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    padding-left: 2px !important;
+    padding-right: 2px !important
+
+}
+.cla_turchese1:hover{
+  text-decoration: none;
+ color: turquoise
 }
 .radius_card{
     border-radius: 20px
 }
 
-.no{
-    border-radius: 20px  !important;
-    border: 1px solid #D25368
-    
-}
+
 .h_card{
-    height: 480px
+    height: 480px;
+
 }
 
 .su_card{
@@ -692,12 +765,12 @@ padding: 20px
  .card1{
    
     position: relative;
-  
+   
     
     
 }
 .card1:hover{
-    
+   
     border:none
 } 
 .card1:before{
@@ -729,18 +802,6 @@ padding: 20px
     top: 0;
     left: 0;
 }
-/*    .info{
-    position: relative;
-    z-index:3;
-    color:#fff;
-    opacity: 0;
-    transform: translateY(30px);
-    transition: 0.5s all;
-}*/
-   /* .card1:hover .info{
-    transform: translateY(0px);
-    opacity: 1
-}   */     
 
 
 
@@ -875,7 +936,7 @@ padding: 20px
                         </div>
                         <section class="info no-border">
                          
-                          <span  id="primo" class="comune"><h2 class="azzurro">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
+                          <span id="primo" class="comune"><h2 class="azzurro">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
                           
                           
                         </section>
@@ -884,7 +945,7 @@ padding: 20px
                         <section></section>
                         <section class="info">
                           
-                          <span  id="secondo" class="comune"><h2 class="giallo">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
+                          <span id="secondo" class="comune"><h2 class="giallo">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
                         </section>
                         <div class="circle-container">
                           <section class="tl"></section>
@@ -915,7 +976,7 @@ padding: 20px
                         <section></section>
                         <section class="info">
                           
-                          <span  id="quarto" class="comune"><h2 class="azzurro">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
+                          <span id="quarto" class="comune"><h2 class="azzurro">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
                         </section>
                         <div class="circle-container">
                           <section class="tl"></section>
@@ -938,14 +999,14 @@ padding: 20px
                         </div>
                         <section class="info">
                          
-                          <span  data-aos-duration='3000' id="quinto" class="comune"><h2 class="giallo">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
+                          <span id="quinto" class="comune"><h2 class="giallo">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt delectus ab nam? Exercitationem aspernatur, alias sed vero esse officiis ipsum dicta aliquam, nemo quae odio velit facere pariatur.</span>
                         </section>
                         <section></section>
                         
                         <section></section>
                         <section class="info">
                         
-                          <span  data-aos-duration='3000' id="sesto" class="comune"><h2 class="rosso">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt.</span>
+                          <span id="sesto" class="comune"><h2 class="rosso">titolo</h2> ipsum, dolor sit amet consectetur adipisicing elit. Minus ea deserunt.</span>
                         </section>
                         <div class="circle-container">
                           <section class="tl"></section>
@@ -975,25 +1036,25 @@ padding: 20px
             <div class=" row flex_finale flex_finale1">
               
               <div class=" col-12 col-md-6 col-lg-4 su_card">
-              <div data-aos='zoom-in-left' data-aos-duration='3000' class="card no in_comune
+              <div data-aos='zoom-in-left' data-aos-duration='3000' class=" radius_card card in_comune
                  " style="width: 18rem;">
         
-          <div class="card-body h_card bg_rosa_tab">
-            <h5 class=" pb-4 card-title tab_rosa">tab rosa</h5>
+          <div id="body_rosa" class="card-body h_card">
+            <h5 id="tab_rosa" class=" pb-4 card-title tab_rosa">tab rosa</h5>
             <img class=" mt-1 w-75 ml-4" src="/sveglia.png"> 
             <p class=" mt-4 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="  mt-4 py-2  mx-auto cla_rosa" href="#" class="btn btn-primary">call to action</a>
+            <a id="cla_rosa" class="  mt-4 py-2  mx-auto cla_rosa" href="#" class="btn btn-primary">call to action</a>
           </div>
         </div>
                 </div> 
                 <div class=" col-12 col-md-6 col-lg-4 su_card">
               <div data-aos='zoom-in' data-aos-duration='3000' class="in_comune radius_card card" style="width: 18rem;">
         
-          <div class="card-body h_card">
-            <h5 class=" pb-4 card-title tab_gialla">tab gialla</h5>
+          <div id="body_gialla"  class="card-body h_card">
+            <h5  id="tab_gialla" class=" pb-4 card-title tab_gialla">tab gialla</h5>
             <img class="w-75 ml-4" src="/target.png">
             <p class=" mt-4 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="  mt-4 py-2  mx-auto cla_gialla" href="#" class="btn btn-primary">call to action</a>
+            <a id="cla_gialla" class="  mt-4 py-2  mx-auto cla_gialla" href="#" class="btn btn-primary">call to action</a>
           </div>
         </div>
                 </div> 
@@ -1001,11 +1062,11 @@ padding: 20px
     su_card">
               <div data-aos='zoom-in-right' data-aos-duration='3000' class="in_comune1 radius_card card" style="width: 18rem;">
         
-          <div class="card-body h_card ">
-            <h5 class=" pb-4 card-title tab_turchese">tab turchese</h5>
-            <img class="w-75 ml-4 mt-3" src="/razzo.png">
+          <div id="body_turchese" class="card-body h_card ">
+            <h5 id="tab_turchese" class=" pb-4 card-title tab_turchese">tab turchese</h5>
+            <img class="w-75 ml-4 mt-3 bg_immagini" src="/razzo.png">
             <p class=" mt-4 card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <a class="  mt-4 py-2  mx-auto cla_turchese" href="#" class="btn btn-primary">call to action</a>
+            <a id="cla_turchese" class="  mt-4 py-2  mx-auto cla_turchese" href="#" class="btn btn-primary">call to action</a>
           </div>
         </div>
                 </div> 
@@ -1123,6 +1184,83 @@ tasto5.addEventListener('click',function(){
 tasto6.addEventListener('click',function(){
     sesto.classList.toggle('mostra')
 })
+let tab_gialla=document.querySelector('#tab_gialla')
+let body_gialla=document.querySelector('#body_gialla')
+let cla_gialla=document.querySelector('#cla_gialla')
+
+body_gialla.addEventListener('mouseenter',function(){
+ tab_gialla.classList.remove('tab_gialla');
+ tab_gialla.classList.add('tab_gialla1') 
+ body_gialla.classList.add('body_gialla')
+ cla_gialla.classList.remove('cla_gialla')
+ cla_gialla.classList.add('cla_gialla1')
+
+ 
+
+})
+
+body_gialla.addEventListener('mouseleave',function(){
+ tab_gialla.classList.add('tab_gialla');
+ tab_gialla.classList.remove('tab_gialla1') 
+ body_gialla.classList.remove('body_gialla')
+ cla_gialla.classList.add('cla_gialla')
+ cla_gialla.classList.remove('cla_gialla1')
+
+ 
+
+})
+let tab_turchese=document.querySelector('#tab_turchese')
+let body_turchese=document.querySelector('#body_turchese')
+let cla_turchese=document.querySelector('#cla_turchese')
+
+body_turchese.addEventListener('mouseenter',function(){
+ tab_turchese.classList.remove('tab_turchese');
+ tab_turchese.classList.add('tab_turchese1') 
+ body_turchese.classList.add('body_turchese')
+ cla_turchese.classList.remove('cla_turchese')
+ cla_turchese.classList.add('cla_turchese1')
+
+ 
+
+})
+
+body_turchese.addEventListener('mouseleave',function(){
+ tab_turchese.classList.add('tab_turchese');
+ tab_turchese.classList.remove('tab_turchese1') 
+ body_turchese.classList.remove('body_turchese')
+ cla_turchese.classList.add('cla_turchese')
+ cla_turchese.classList.remove('cla_turchese1')
+
+ 
+
+})
+let tab_rosa=document.querySelector('#tab_rosa')
+let body_rosa=document.querySelector('#body_rosa')
+let cla_rosa=document.querySelector('#cla_rosa')
+
+body_rosa.addEventListener('mouseenter',function(){
+ tab_rosa.classList.remove('tab_rosa');
+ tab_rosa.classList.add('tab_rosa1') 
+ body_rosa.classList.add('body_rosa')
+ cla_rosa.classList.remove('cla_rosa')
+ cla_rosa.classList.add('cla_rosa1')
+
+ 
+ 
+
+})
+
+body_rosa.addEventListener('mouseleave',function(){
+ tab_rosa.classList.add('tab_rosa');
+ tab_rosa.classList.remove('tab_rosa1') 
+ body_rosa.classList.remove('body_rosa')
+ cla_rosa.classList.add('cla_rosa')
+ cla_rosa.classList.remove('cla_rosa1')
+
+ 
+
+})
+
 
 
 
